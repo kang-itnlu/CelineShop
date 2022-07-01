@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CelineShop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CelineShop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CelineShop-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CelineShop:war exploded" />
+    </root>
+  </artifact>
+</component>

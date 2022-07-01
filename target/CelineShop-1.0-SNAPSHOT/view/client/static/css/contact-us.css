@@ -1,0 +1,106 @@
+/*************************
+******* Contact CSS ********
+**************************/
+.contact-wrap {
+    margin-bottom: 40px;
+}
+
+.contact-wrap .col-md-8 {
+    padding: 0;
+}
+
+.contact-wrap .col-md-4 {
+    padding: 0;
+}
+
+.contact-wrap .col-form-label {
+    font-size: 14px;
+    color: #a2a29d;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    padding: 0;
+}
+
+.contact-wrap .form, .contact-wrap .contact-info {
+    padding: 30px;
+}
+
+.contact-wrap .contact-info {
+    color: rgba(255, 255, 255, 0.5);
+    height: 477px;
+}
+.contact-wrap .contact-info ul li {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-wrap .contact-info ul li .wrap-icon {
+    font-size: 20px;
+    color: #666663;
+    margin-top: 5px;
+}
+
+.contact-wrap .form {
+    background: #fff;
+}
+
+.contact-wrap .form h3 {
+    color: #EFAC92;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-wrap .contact-info {
+    background: #f3f6f5;
+}
+
+.contact-wrap .contact-info h3 {
+    color: #EFAC92;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-wrap .contact-info p {
+    font-size: 15px;
+    color: #EFAC92;
+    font-weight: bold;
+}
+
+.contact-wrap .contact-info .text {
+    color: #666663;
+}
+
+.contact-wrap .form-group .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #EFAC92;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.contact-wrap .form-group .btn:hover {
+    background-color: #d58269;
+}
+
+.social-networks {
+    margin-top: -5px;
+    padding: 0;
+    display: inline-block;
+}
+
+.social-networks li {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.social-networks li:last-child {
+    margin-right: 0;
+}
+
+.social-networks li a {
+    color: #999;
+    font-size: 30px;
+}

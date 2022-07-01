@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+    margin: 10px 5px;
+}
+.social-icon{
+    font-size: 20px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-twitter{
+    color:#1da1f2;
+}
+.fa-instagram{
+    color:#d6249f;
+}
+#navbar .connection{
+    margin-top:7px ;
+}
+#navbar #for-image {
+    border-right: 2px solid #efac92;
+}
+#navbar #title{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#efac92;
+}
+#navbar img{
+    width: 15%;
+    margin-bottom: 3px;
+}
+#navbar .connection #phone{
+    display: inline-block;
+    margin-left: 20px;
+    border-left: 2px solid #efac92;
+    padding-left: 10px;
+}
+.fa-phone-alt{
+    color:#efac92;
+}
+.fa-search{
+    color:#efac92;
+}
+#welcome-ask{
+    background-color: #efac92;
+    height: 300px;
+    padding-top:50px;
+}
+#welcome-ask h1{
+    color:white;
+    font-weight: bolder;
+}
+#welcome-ask h2{
+    font-weight: bolder;
+}
+#welcome-ask .input-group{
+    margin: 15px auto;
+}
+#welcome-ask .input-group-prepend{
+    background-color: white;
+    padding:0 5px;
+}
+#welcome-ask input[type="text"]{
+    width: 400px;
+    height: 35px;
+    border: none;
+    /*margin: 15px;*/
+    border-radius: 4px;
+}
+#main-content .list-step{
+    list-style-type: decimal;
+}
+footer p, .rules{
+    font-size: 12px;
+}
+.rules{
+    border-left:1px solid #5a6268 ;
+    padding-left: 5px;
+}
+.rules a{
+    text-decoration: none;
+    color:#5a6268;
+}
+.rules a:hover{
+    color:#1b1e21;
+}
+hr {
+    color:#1b1e21;
+}

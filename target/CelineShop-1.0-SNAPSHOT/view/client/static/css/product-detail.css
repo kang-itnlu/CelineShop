@@ -1,0 +1,221 @@
+#container__body {
+    margin-left: 100px;
+    display: flex;
+}
+
+
+.bread {
+    margin-left: 100px;
+    backface-visibility: hidden;
+}
+
+.breadcrumb-item a {
+    color: var(--main-color);
+}
+
+
+.product__item-star {
+    display: inline-flex;
+    margin: 0 auto;
+
+}
+
+.product__item-star .product__item-star-sold {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 12px;
+}
+
+.home-product-item__price {
+    padding: 12px 0;
+
+}
+
+.home-product-item__price-old,
+.home-product-item__price-current {
+    font-size: 20px;
+}
+
+.home-product-item__price-current {
+    color: var(--main-color);
+}
+
+#product__size {
+    display: flex;
+}
+
+#product__size .product__size-S {
+    margin: 0 6px;
+    border: solid 1px gray;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.product__number {
+    padding: 12px 0;
+    display: flex;
+}
+
+.product__number-input {
+    margin-left: 32px;
+}
+
+#modal__body #quantity {
+    width: 60px;
+}
+
+.add__to-cart, .add__to-checkout {
+    padding: 12px;
+}
+
+.add-cart {
+    background-color: whitesmoke;
+    padding: 10px 4px;
+    color: var(--main-color);
+    border: 1px solid gray;
+}
+
+.add-checkout {
+    background-color: #f38772;
+    padding: 12px 32px;
+    color: whitesmoke;
+    border: none;
+}
+
+.product__brand {
+    display: flex;
+
+}
+
+.product__buy {
+    display: flex;
+}
+
+.product__brand .first {
+    padding-right: 12px;
+}
+
+#product__describe {
+    padding: 12px 0;
+    width: 624px;
+}
+
+#product__detail-more {
+    padding: 12px 0;
+
+}
+
+#product__comment {
+    padding-top: 12px;
+}
+
+.product__detail-more-text1 {
+    display: flex;
+}
+
+.product__size-S.active {
+    color: red;
+}
+
+.product__comment-text1 {
+    margin: auto;
+    width: 50%;
+}
+
+.product__comment-text1-cmt {
+    display: flex;
+}
+
+#product__comment-icon2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.product__comment-text1-cmt p {
+    margin-left: 6px;
+    color: var(--main-color);
+}
+
+.product__comment-input {
+    margin-top: 12px;
+    padding-bottom: 24px;
+}
+
+
+.product__comment-btn {
+    background-color: lightgray;
+}
+
+.image-gallery {
+    margin: 0 auto;
+    display: flex;
+}
+
+.primary,
+.thumbnails {
+    display: table-cell;
+}
+
+.thumbnails {
+    background-color: transparent;
+    padding-right: 20px;
+}
+
+.primary {
+    margin-left: 50px;
+    width: 550px;
+    height: 550px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+    border: 1px solid red;
+}
+
+.thumbnail-image {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+
+.rating {
+    margin-top: 40px;
+    border: none;
+    float: left;
+}
+
+.rating > label {
+    color: #90A0A3;
+    float: right;
+}
+
+.rating > label:before {
+    margin: 5px;
+    font-size: 1.5em;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f005";
+    display: inline-block;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #F79426;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    color: #FECE31;
+}
